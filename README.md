@@ -20,7 +20,11 @@ Logging in happens by using the Patients first name, last name, and date of birt
 
 ### API v1
 ## Patients
-You log into a patient with the first_name, last_name, and date_of_birth
+You log into a patient with the first_name, last_name, and date_of_birth, for sample purposes please use:
+
+    First Name: Tammy
+    Last Name: Crotean
+    Birthdate: 1970-04-16
 
     /api/v1/me.json
 
