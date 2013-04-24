@@ -35,6 +35,11 @@ You log into a patient with the first_name, last_name, and date_of_birth
     Returns an array of claims associated to the logged in patient
 
     [{"claim":{"claim_id":"...","claim_type":"03","proc_code":"HR403","date_of_service":".."}},{"claim":{"claim_id":"...","claim_type":"04","proc_code":"CC001","date_of_service":"..."}}
+    
+
+    /api/v1/claims/:id
+
+    Returns the detail view of a specific claim
 
 ### SDKs
 ## Ruby OmniAuth
