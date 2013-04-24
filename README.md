@@ -37,9 +37,9 @@ You log into a patient with the first_name, last_name, and date_of_birth
     [{"claim":{"claim_id":"...","claim_type":"03","proc_code":"HR403","date_of_service":".."}},{"claim":{"claim_id":"...","claim_type":"04","proc_code":"CC001","date_of_service":"..."}}
     
 
-    /api/v1/claims/:id
-
-    Returns the detail view of a specific claim
+    /api/v1/claims/:claimid
+    
+    {"claim":{"claim_type":"03","claim_type_desc":"Outpatient","proc_code":"HR320","proc_code_desc":"...","dx1":"...","dx1_desc":"...","dx2":"...","dx2_desc":"...","charge_amt":"120","paid_amt":"50"}}
 
 ### SDKs
 ## Ruby OmniAuth
