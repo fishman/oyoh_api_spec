@@ -118,6 +118,8 @@ If you're interesting in using ruby. Please try the sample application at:
     https://github.com/fishman/oyoh-devise-client
 
 ## Python
+There is a sample python app available on
+    https://github.com/fishman/oyoh-python
 
 ## .NET
 
