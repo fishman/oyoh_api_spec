@@ -11,8 +11,22 @@ Sign up at:
 Create a new application and use the application and security token in your OAuth 2.0 projects
 
 ### OAuth endpoints
-    https://cajuncodefest.dhh.la.gov/oauth/authenticate
-    https://cajuncodefest.dhh.la.gov/oauth/access_token
+    https://cajuncodefest.dhh.la.gov/oauth/authorize
+    https://cajuncodefest.dhh.la.gov/oauth/token
+
+
+For the token exchange to work you must use post and add the following parameters:
+
+
+    request_token_params=
+    {
+      'response_type': 'code'
+    }
+    
+    access_token_params=
+    {
+      'grant_type': 'authorization_code'
+    }
 
 
 ### Logging in
