@@ -27,6 +27,9 @@ For the token exchange to work you must use post and add the following parameter
     {
       'grant_type': 'authorization_code'
     }
+    
+### How to Authorize requests
+    curl -H 'Authorization: Bearer a05068f858e858e7a31b1711f3ad6fbfd5539c63cc27149e75cdd817e0fe4179' https://cajuncodefest.dhh.la.gov/api/v1/me.json
 
 
 ### Logging in
