@@ -112,6 +112,9 @@ You log into a patient with the first_name, last_name, and date_of_birth, for sa
       }
     }
 
+## Immunizations
+    /api/v1/immunizations
+
 ### SDKs
 ## Ruby OmniAuth
     gem install omniauth-oyoh
